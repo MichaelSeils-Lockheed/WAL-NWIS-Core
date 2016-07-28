@@ -292,10 +292,10 @@ angular.module('rippleDemonstrator')
       };
 
       if ($scope.currentUser.role === 'PHR') {
-        $scope.title = 'Welsh PHR'
+        $scope.title = 'NWIS PHR'
       }
       else {
-        $scope.title = 'Welsh IDCR'
+        $scope.title = 'NWIS IDCR'
       }
 
       $scope.footer = 'Integrated Digital Care Record';
